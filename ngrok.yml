@@ -1,0 +1,11 @@
+version: "2"
+
+# Keep the authtoken in your global ngrok config.
+# Do not store secrets for the project in this file.
+tunnels:
+  frontend:
+    proto: http
+    addr: 8080
+  backend:
+    proto: http
+    addr: 8000
